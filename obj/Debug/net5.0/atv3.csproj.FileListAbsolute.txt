@@ -1,0 +1,16 @@
+C:\Miriã\atv3\bin\Debug\net5.0\atv3.exe
+C:\Miriã\atv3\bin\Debug\net5.0\atv3.deps.json
+C:\Miriã\atv3\bin\Debug\net5.0\atv3.runtimeconfig.json
+C:\Miriã\atv3\bin\Debug\net5.0\atv3.runtimeconfig.dev.json
+C:\Miriã\atv3\bin\Debug\net5.0\atv3.dll
+C:\Miriã\atv3\bin\Debug\net5.0\ref\atv3.dll
+C:\Miriã\atv3\bin\Debug\net5.0\atv3.pdb
+C:\Miriã\atv3\obj\Debug\net5.0\atv3.csproj.AssemblyReference.cache
+C:\Miriã\atv3\obj\Debug\net5.0\atv3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Miriã\atv3\obj\Debug\net5.0\atv3.AssemblyInfoInputs.cache
+C:\Miriã\atv3\obj\Debug\net5.0\atv3.AssemblyInfo.cs
+C:\Miriã\atv3\obj\Debug\net5.0\atv3.csproj.CoreCompileInputs.cache
+C:\Miriã\atv3\obj\Debug\net5.0\atv3.dll
+C:\Miriã\atv3\obj\Debug\net5.0\ref\atv3.dll
+C:\Miriã\atv3\obj\Debug\net5.0\atv3.pdb
+C:\Miriã\atv3\obj\Debug\net5.0\atv3.genruntimeconfig.cache
