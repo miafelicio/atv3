@@ -5,9 +5,12 @@ namespace atv3
 {
     class Program
     {
+
+        static List<string> Participantes = new List<string>();
         static void Main(string[] args)
         {
-            List<string> Participantes = new List<string>();
+            
+            
             string Resposta;
 
             do
@@ -31,7 +34,7 @@ namespace atv3
                             break;
                         case "sim":
                             Console.WriteLine("Você pode participar");
-                            Participantes.Add(name);
+                            CadastrarParticipante(name);
                             break;
                         default:
                             Console.WriteLine("Resposta invalida, digite uma resposta válida");
@@ -41,7 +44,8 @@ namespace atv3
                 else
                 {
                     Console.WriteLine("Pode entrar");
-                    Participantes.Add(name);
+                    CadastrarParticipante(name);
+                    
                 }
 
                 Console.WriteLine("Deseja cadastrar mais alguma pessoa? sim/não");
@@ -49,16 +53,29 @@ namespace atv3
 
             } while (Resposta== "sim");
 
-
             Console.WriteLine("Pessoas que participarão");
+
+            
+            ListarParticipantes();
+
+
+        
+        }
+
+
+        static void ListarParticipantes(){
+
             foreach (string cadanome in Participantes)
+            
             {
                 Console.WriteLine(cadanome);
 
             }
+        }
 
+        static void CadastrarParticipante(string name){
 
-                          
+                    Participantes.Add(name);
         }
     }
 }
