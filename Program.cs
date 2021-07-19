@@ -58,6 +58,35 @@ namespace atv3
             
             ListarParticipantes();
 
+             Console.WriteLine("Deseja repetir a lista? sim/não");
+             string listaRepetir = Console.ReadLine();
+
+            
+             
+             
+            switch (listaRepetir)
+            {
+                case"sim":
+                
+                Console.WriteLine("Pessoas que participarão");
+                ListarParticipantes();
+
+                break; 
+                case"não":
+
+                Console.WriteLine("Cadastro concluido");
+
+                break;
+
+                 
+                default:
+
+                   Console.WriteLine("Resposta invalida");
+                   
+                break;
+             } 
+             
+            
 
         
         }
